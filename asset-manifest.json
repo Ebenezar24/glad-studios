@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/glad-studios/static/css/main.ba007c03.css",
+    "main.js": "/glad-studios/static/js/main.d1c9d552.js",
+    "index.html": "/glad-studios/index.html",
+    "main.ba007c03.css.map": "/glad-studios/static/css/main.ba007c03.css.map",
+    "main.d1c9d552.js.map": "/glad-studios/static/js/main.d1c9d552.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba007c03.css",
+    "static/js/main.d1c9d552.js"
+  ]
+}
