@@ -40,10 +40,22 @@ const WHY_US = [
 ];
 
 const GALLERY_PREVIEW = [
-  { src: "/images/salon-interior.jpg", label: "Our Studio" },
-  { src: "/images/hair-care-service.jpg", label: "Hair Care" },
-  { src: "/images/bridal-makeup.jpg", label: "Bridal Makeup" },
-  { src: "/images/facial-service.avif", label: "Spa & Relaxation" },
+  {
+    src: `${process.env.PUBLIC_URL}/images/salon-interior.jpg`,
+    label: "Our Studio",
+  },
+  {
+    src: `${process.env.PUBLIC_URL}/images/hair-care-service.jpg`,
+    label: "Hair Care",
+  },
+  {
+    src: `${process.env.PUBLIC_URL}/images/bridal-makeup.jpg`,
+    label: "Bridal Makeup",
+  },
+  {
+    src: `${process.env.PUBLIC_URL}/images/facial-service.avif`,
+    label: "Spa & Relaxation",
+  },
 ];
 
 export default function Home({ setPage }) {
@@ -75,7 +87,9 @@ export default function Home({ setPage }) {
           </div>
         </div>
         <div className="hero-media">
-          <img src="/images/hero-spa-relax.jpg" alt="Guest relaxing during a spa facial treatment at Glad Studios" />
+          <img
+  src={`${process.env.PUBLIC_URL}/images/hero-spa-relax.jpg`}
+  alt="Guest relaxing during a spa facial treatment at Glad Studios"/>
         </div>
       </section>
 
